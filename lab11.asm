@@ -690,7 +690,7 @@ live_1:   ; Write a string to the console:
 
 live_0:   ; Write a string to the console:
 	INVOKE WriteConsole,
-		consoleHandle,				;console output handle
+		consoleHandle,				; console output handle
 		ADDR HANGMAN_LIVES_00,      ; string pointer
 		messageSizeGoodGame,		; string length
 		ADDR bytesWritten,			; returns num bytes written
